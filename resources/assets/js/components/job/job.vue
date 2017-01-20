@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="col-lg-12">
+        <div class="">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     Job order (<span class="text-primary"><b>Points</b></span>)
@@ -21,9 +21,11 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
                         <div class="tab-pane fade" id="profile">
-                            <create-job
-                              :employees="employees"
-                            ></create-job>
+                            <div class="col-md-12">
+                              <create-job
+                                :employees="employees"
+                              ></create-job>
+                            </div>
                         </div>
                        
                     </div>
